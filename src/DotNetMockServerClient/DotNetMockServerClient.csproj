@@ -12,6 +12,7 @@
 		<Description>MockServer Client API written in dotnet</Description>
 		<ProjectUrl>https://github.com/calrom-jtejero/dotnet-mockserver-client</ProjectUrl>
 		<LicenseUrl>https://github.com/calrom-jtejero/dotnet-mockserver-client/blob/master/LICENSE.md</LicenseUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
 		<Copyright>Copyright 2021 (c) Calrom Ltd. All rights reserved.</Copyright>
@@ -33,7 +34,11 @@
 		<PackageReference Include="log4net" Version="2.0.12" />
 		<PackageReference Include="System.Net.Http" Version="4.3.4" />
 	</ItemGroup>
-
+    
+  <ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+	</ItemGroup>
+	
 	<ItemGroup>
 	  <ProjectReference Include="..\DotNetMockServerClient.DataContracts\DotNetMockServerClient.DataContracts.csproj" />
 	</ItemGroup>
