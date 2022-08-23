@@ -1,7 +1,7 @@
 <Project>
     <!-- Add stylecop to all projects and link the stylecop.json file for settings -->
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.261">
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json">
