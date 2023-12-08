@@ -37,4 +37,10 @@
   <ItemGroup>
     <None Include="LICENSE.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
+    
+  <ItemGroup>
+    <AdditionalFiles Update="Z:\calrom\dotnet-mockserver-client\stylecop.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AdditionalFiles>
+  </ItemGroup>
 </Project>
