@@ -39,7 +39,7 @@
 	</ItemGroup>
     
   <ItemGroup>
-    <AdditionalFiles Update="..\..\stylecop.json">
+    <AdditionalFiles Include="..\..\stylecop.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AdditionalFiles>
   </ItemGroup>
