@@ -12,14 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
-		DotNetMockServerClient.ruleset = DotNetMockServerClient.ruleset
 		LICENSE.md = LICENSE.md
+		stylecop.json = stylecop.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sonarlint", ".sonarlint", "{C390C7DC-60A5-4E75-97D4-1F1E01C5077E}"
-	ProjectSection(SolutionItems) = preProject
-		.sonarlint\DotNetMockServerClient.ruleset = .sonarlint\DotNetMockServerClient.ruleset
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
