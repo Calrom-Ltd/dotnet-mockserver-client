@@ -45,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Update="Z:\calrom\dotnet-mockserver-client\stylecop.json">
+    <AdditionalFiles Update="..\..\stylecop.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AdditionalFiles>
   </ItemGroup>
