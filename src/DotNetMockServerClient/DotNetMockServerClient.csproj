@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net5.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<PackageId>DotNetMockServerClient</PackageId>
 		<PackageVersion>1.2.0</PackageVersion>
 		<Authors>Calrom Ltd.</Authors>
